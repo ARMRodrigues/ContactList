@@ -6,4 +6,8 @@
     <string name="hint_phone">Phone</string>
     <string name="hint_email">Email</string>
     <string name="save">Save</string>
+    <string name="tile_name">Name</string>
+    <string name="tile_email">Email</string>
+    <string name="remove_contact">Remove Contact</string>
+    <string name="edit_contact">Edit Contact</string>
 </resources>
