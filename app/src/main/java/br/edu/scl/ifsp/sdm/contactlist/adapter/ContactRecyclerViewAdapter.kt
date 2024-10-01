@@ -20,6 +20,7 @@ class ContactRecyclerViewAdapter(
         RecyclerView.ViewHolder(tileContactBinding.root) {
         val nameTextView: TextView = tileContactBinding.nameTextView
         var emailTextView: TextView = tileContactBinding.emailTextView
+        var phoneTextView: TextView = tileContactBinding.phoneTextView
 
         init {
             tileContactBinding.root.apply {
@@ -54,6 +55,7 @@ class ContactRecyclerViewAdapter(
             with(holder) {
                 nameTextView.text = contact.name
                 emailTextView.text = contact.email
+                phoneTextView.text = contact.phone
             }
         }
     }

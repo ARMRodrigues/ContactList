@@ -10,4 +10,5 @@
     <string name="tile_email">Email</string>
     <string name="remove_contact">Remove Contact</string>
     <string name="edit_contact">Edit Contact</string>
+    <string name="tile_phone">Phone</string>
 </resources>

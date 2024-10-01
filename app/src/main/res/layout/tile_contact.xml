@@ -10,12 +10,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/tile_name"
-        android:textSize="24sp" />
+        android:textSize="26sp" />
 
     <TextView
         android:id="@+id/emailTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="20sp"
         android:text="@string/tile_email" />
+
+    <TextView
+        android:id="@+id/phoneTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tile_phone" />
 
 </LinearLayout>
